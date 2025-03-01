@@ -1,0 +1,10 @@
+.form__input-wrapper {
+  width: 75%;
+}
+
+@media (max-width: 767px) {
+  .form__input-wrapper {
+    padding: 0 10px 0 10px;
+    width: 100%;
+  }
+}

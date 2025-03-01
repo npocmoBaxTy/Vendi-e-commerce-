@@ -1,0 +1,48 @@
+.product--card {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5rem;
+  width: 50%;
+  margin-bottom: 1rem;
+  transition: 0.4s;
+}
+.product--card:hover .card__display {
+  opacity: 1;
+}
+.slider--product--card {
+  width: 100% !important;
+}
+
+.product--card.row--card .card__display-button {
+  width: auto;
+}
+.product--card.row--card {
+  width: 100% !important;
+}
+.product--card.product--card .card__display {
+  height: 100%;
+}
+
+/* Для экранов от 640px (sm) */
+@media (min-width: 640px) {
+  .product--card {
+    padding: 0.75rem; /* sm:p-3 */
+    width: 25%; /* sm:w-[25%] */
+  }
+}
+
+/* Для экранов от 1024px (lg) */
+@media (min-width: 1024px) {
+  .product--card {
+    width: 30%; /* lg:w-[30%] */
+  }
+}
+
+/* Для экранов от 1280px (xl) */
+@media (min-width: 1280px) {
+  .product--card {
+    width: 25%; /* xl:w-[25%] */
+  }
+}
