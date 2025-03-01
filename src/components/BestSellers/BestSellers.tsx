@@ -8,6 +8,7 @@ const BestSellers = ({ products }: { products: IProduct[] }) => {
         Our Bestseller
       </h1>
       <ProductList
+        view="grid"
         products={products.filter((item) => item.rating > 4.5).slice(0, 8)}
       />
     </div>
